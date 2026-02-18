@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(209, 235, 223);
+    color: black ;
+    line-height: 1.7;
+}
+/*Header*/
+header{
+    color: white;
+    background: rgb(28, 28, 28);
+    padding: 15px 20px;
+    position: sticky;
+    top:0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav h1{
+    font-size: 24px;
+    flex:1;
+}
+div h2 {
+    color: aliceblue;
+}
+div p {
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    gap: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(174, 244, 211);
+}
+/*Hero*/
+.hero{
+    padding: 50px 20px;
+    text-align: center;
+    background: rgb(47, 128, 101);
+}
+.hero h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.hero p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+section{
+    padding: 20px 30px;
+    margin-bottom: 1px;
+    margin: auto;
+}
+section h2{
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+.skills-grid{
+    display: grid;
+    gap: 20px;
+}
+.skill-card{
+    background:rgb(47, 128, 101) ;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    color: whitesmoke;   
+}
+.skill-card:hover{
+    color: black;
+    box-shadow: 0px 1px 2px rgb(47, 128, 101);
+}
+.project{
+    display:grid;
+    gap:20px;
+}
+.project-card{
+    color: white;
+    background: rgb(47, 128, 101);
+    padding:20px;
+    border: 2px solid black;
+    text-align: center;
+}
+.project-card h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.project-card:hover{
+    color: black;
+    box-shadow: 0px 8px 18px rgb(47, 128, 101);
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
